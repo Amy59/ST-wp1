@@ -1,0 +1,50 @@
+{
+    "sku": {
+        "name": "Standard_LRS",
+        "tier": "Standard"
+    },
+    "kind": "StorageV2",
+    "id": "/subscriptions/a614f35c-af32-4042-b4eb-b6de962043ac/resourceGroups/Ghanzou/providers/Microsoft.Storage/storageAccounts/hamont",
+    "name": "hamont",
+    "type": "Microsoft.Storage/storageAccounts",
+    "location": "northeurope",
+    "tags": {},
+    "properties": {
+        "minimumTlsVersion": "TLS1_2",
+        "allowBlobPublicAccess": true,
+        "allowSharedKeyAccess": true,
+        "networkAcls": {
+            "bypass": "AzureServices",
+            "virtualNetworkRules": [],
+            "ipRules": [],
+            "defaultAction": "Allow"
+        },
+        "supportsHttpsTrafficOnly": true,
+        "encryption": {
+            "services": {
+                "file": {
+                    "enabled": true,
+                    "lastEnabledTime": "2021-07-21T18:05:19.1897595Z"
+                },
+                "blob": {
+                    "enabled": true,
+                    "lastEnabledTime": "2021-07-21T18:05:19.1897595Z"
+                }
+            },
+            "keySource": "Microsoft.Storage"
+        },
+        "accessTier": "Hot",
+        "provisioningState": "Succeeded",
+        "creationTime": "2021-07-21T18:05:19.0960044Z",
+        "primaryEndpoints": {
+            "dfs": "https://hamont.dfs.core.windows.net/",
+            "web": "https://hamont.z16.web.core.windows.net/",
+            "blob": "https://hamont.blob.core.windows.net/",
+            "queue": "https://hamont.queue.core.windows.net/",
+            "table": "https://hamont.table.core.windows.net/",
+            "file": "https://hamont.file.core.windows.net/"
+        },
+        "primaryLocation": "northeurope",
+        "statusOfPrimary": "available"
+    }
+}
